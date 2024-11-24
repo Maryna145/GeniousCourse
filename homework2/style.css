@@ -1,0 +1,313 @@
+:root {
+    --background: #ffffff;
+    --main-light: #2b7fff;
+    --main-dark: #011c44;
+    --secondary-grey: #4a4a4a;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    font-style: normal;
+  }
+  .container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+  }
+  .section {
+    padding: 48px 0;
+  }
+  .section-title {
+    color: var(--main-dark);
+    font-family: "Play", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+  }
+  .section-title .accent {
+    color: var(--main-light);
+  }
+  
+  .link {
+    color: var(--main-dark);
+  }
+  .link:hover {
+    color: var(--main-light);
+    font-weight: 700;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 106px;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+  }
+  .header-menu {
+    display: flex;
+    gap: 56px;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .contact-svg {
+    display: flex;
+    gap: 35px;
+  }
+  .hero-section {
+    background-image: url(./images/main.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 28px;
+  }
+  
+  .hero-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: var(--main-light);
+    font-family: "Play", sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    line-height: 0.8;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+  .second-container {
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+  }
+  .button {
+    padding: 16px 32px;
+    margin-bottom: 14px;
+    background-color: var(--main-light);
+    color: var(--background);
+    border-radius: 32px;
+    border: var(--main-light) 2px solid;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+    border: var(--main-light) 2px solid;
+    color: var(--main-dark);
+    font-weight: 600;
+  }
+  .paragraph {
+    color: var(--main-dark);
+    margin-bottom: 16px;
+  }
+  .secondary-paragraph {
+    color: var(--secondary-grey);
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+  }
+  .section-about {
+    padding: 0 0 128px 0;
+  }
+  .about {
+    display: flex;
+    gap: 80px;
+  }
+  .paragraph-about {
+    font-size: 22px;
+    line-height: 38px;
+    margin-top: 0;
+    flex-grow: 1;
+  }
+  .about-accent {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .about-title {
+    margin: 40px 0;
+    max-width: 530px;
+  }
+  .about-content {
+    max-width: 710px;
+  }
+  .first-p-about {
+    margin-bottom: 40px;
+  }
+  .about-img {
+    max-width: 500px;
+  }
+  .first-pic {
+    margin-bottom: 32px;
+  }
+  .second-pic {
+    margin-left: 172px;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-title {
+    margin: 0 0 48px 0;
+    text-align: center;
+    max-width: 432px;
+  }
+  .why-cards {
+    display: flex;
+    gap: 56px;
+  }
+  .why-item {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(168, 198, 245, 0.38);
+    border-radius: 32px;
+    max-width: 316px;
+    height: 180px;
+    flex-grow: 0;
+    padding: 24px 32px;
+  }
+  .article-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-text {
+    text-align: center;
+    line-height: 24px;
+    margin: 0;
+  }
+  .why-img {
+    margin-bottom: 17px;
+  }
+  
+  .procedure-title {
+    margin: 0 0 48px 0;
+    text-align: center;
+  }
+  .procedure-cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .card {
+    width: 344px;
+    height: 456px;
+    flex-grow: 0;
+  }
+  .cards-item1 {
+    background: linear-gradient(
+      180.05deg,
+      rgba(1, 28, 68, 0) 48.53%,
+      rgba(1, 28, 68, 0.725825) 84.61%,
+      #011c44 101.39%
+    ), url(./images/mask1.jpg) no-repeat center/cover; 
+    width: 344px;
+    height: 456px;
+    border-radius: 4px 120px;
+  }
+  .cards-item2 {
+    background: linear-gradient(
+      180.05deg,
+      rgba(1, 28, 68, 0) 48.53%,
+      rgba(1, 28, 68, 0.725825) 84.61%,
+      #011c44 101.39%
+    ), url(./images/mask2.jpg) no-repeat center/cover; 
+    width: 344px;
+    height: 456px;
+    border-radius: 4px 120px;
+  }
+  .cards-item3 {
+    background: linear-gradient(
+      180.05deg,
+      rgba(1, 28, 68, 0) 48.53%,
+      rgba(1, 28, 68, 0.725825) 84.61%,
+      #011c44 101.39%
+    ), url(./images/mask3.jpg) no-repeat center/cover; 
+    width: 344px;
+    height: 456px;
+    border-radius: 4px 120px;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-title {
+    margin: 48px 0;
+    text-align: center;
+  }
+  .map {
+    border-radius: 32px;
+  }
+  footer {
+    background-color: var(--main-dark);
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 48px;
+    height: 278px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 186px;
+    height: 166px;
+  }
+  .footer-img{
+    width: 83px;
+    height: 42px;
+  }
+  .footer-contact {
+    color: var(--background);
+    font-size: 16px;
+  }
+  .footer-link{
+    display: flex;
+    flex-direction: column;
+    color: var(--background);
+  }
+  .footer-links{
+    display: flex;
+    flex-direction: column;
+    height: 166px;
+    gap: 16px;
+  }
+  .first-list{
+    min-width: 203px;
+  }
+  .second-list{
+    max-width: 192px;
+  }
+  .footer-copyright {
+    font-size: 13px;
+    color: #747272;
+    padding: 0;
+    margin: 16px 0 0 0;
+  }
+  .footer-text {
+    font-size: 16px;
+    color: var(--background);
+  }
+  
